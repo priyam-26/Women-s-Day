@@ -1,0 +1,108 @@
+* {
+    background-color: white;
+}
+body {
+    border: 8px solid #3D1C02;
+    border-radius: 15px;
+    background-color: #FFE4E1;
+    margin: 20px;
+    font-family: 'Great Vibes', 'Dancing Script', cursive;    
+}
+
+header, h2 {
+    background-color: #FFE4E1;
+    text-align: center;
+}
+
+main {
+    background-color: #FFE4E1;
+}
+
+h1 {
+    background-color: #FFE4E1;
+    font-size: 50px;
+    color: #3D1C02;
+    text-decoration: underline solid;
+}
+
+h2 {
+    color: #4B0082;
+    background-color: #FFE4E1;
+}
+
+.quotes, b {
+    text-align: center;
+    color: #800000;
+    background-color: #FFE4E1;
+}
+
+ul, p, li {
+    font-size: 22px;
+    color: #3D1C02;
+    background-color: #FFE4E1;
+}
+
+a {
+    text-decoration: none;
+}
+
+#image {
+    position: relative;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    text-align: center;
+    border: 5px solid #3D1C02;
+    border-radius: 55px;;
+}
+.hover-container {
+    position: relative;
+    display: inline-block;
+    font-size: 27px;
+    cursor: pointer;
+    color: #3D1C02;
+    transition: color 0.3s ease-in-out;
+    background-color: #FFE4E1;
+}
+
+.hover-container img {
+    position: absolute;
+    z-index: 1;
+    top: -420px;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 900px;
+    display: none;
+    border: 5px solid #3D1C02;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hover-container:hover img {
+    display: block;
+}
+
+.hover-container:hover {
+    color: #8B4513;
+    text-decoration: underline solid;
+}
+
+video {
+    background-color: #FFE4E1;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #3D1C02;
+}
+
+footer {
+    height: 60px;
+    font-size: 25px;;
+    color: #DEB887;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    background-color: #3D1C02;
+}
