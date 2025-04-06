@@ -9,6 +9,10 @@ body {
     font-family: 'Great Vibes', 'Dancing Script', cursive;    
 }
 
+.full {
+    background-color: #FFE4E1;
+}
+
 header, h2 {
     background-color: #FFE4E1;
     text-align: center;
@@ -23,6 +27,7 @@ h1 {
     font-size: 50px;
     color: #3D1C02;
     text-decoration: underline solid;
+    text-underline-offset: 4px;
 }
 
 h2 {
@@ -46,15 +51,15 @@ a {
     text-decoration: none;
 }
 
+.guestImage {
+    background-color: #FFE4E1;
+    display: grid;
+    place-items: center;
+}
 #image {
-    position: relative;
-    top: 150px;
-    left: 50%;
-    transform: translate(-50%, -50%);
     height: 300px;
-    text-align: center;
     border: 5px solid #3D1C02;
-    border-radius: 55px;;
+    border-radius: 55px;
 }
 .hover-container {
     position: relative;
@@ -69,10 +74,8 @@ a {
 .hover-container img {
     position: absolute;
     z-index: 1;
-    top: -420px;
-    left: 70%;
-    transform: translateX(-50%);
-    width: 900px;
+    transform: translate(-50%, -110%);
+    width: 800px;
     display: none;
     border: 5px solid #3D1C02;
     border-radius: 10px;
@@ -90,6 +93,7 @@ a {
 
 video {
     background-color: #FFE4E1;
+    margin-left: 20%;
 }
 
 hr {
@@ -105,4 +109,33 @@ footer {
     position: relative;
     bottom: 0px;
     background-color: #3D1C02;
+}
+
+@media (max-width : 1200px) {
+    #image {
+        height: 200px;
+        border-radius: 35px;
+    }
+    .hover-container img{
+        width: 400px;
+        transform: translateX(5%);
+        transform: translateY(-120%);
+    }
+    video {
+        width: 400px;
+    }
+}
+
+@media (max-width : 550px) {
+    #image {
+        height: 100px;
+        border-radius: 15px;
+    }
+    .hover-container img{
+        width: 300px; 
+        transform: translate(-10%, -125%);
+    }
+    video {
+        width: 200px;
+    }
 }
