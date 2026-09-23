@@ -44,9 +44,9 @@ The website presents the different moments of the celebration through photograph
       <b>Home Page</b>
     </td>
     <td width="50%" align="center">
-      <img src="screenshots/event-highlights.png" alt="Event Highlights">
+      <img src="screenshots/interactive-gallery.png" alt="Interactive Gallery">
       <br>
-      <b>Event Highlights</b>
+      <b>Interactive Gallery</b>
     </td>
   </tr>
   <tr>
@@ -59,18 +59,6 @@ The website presents the different moments of the celebration through photograph
       <img src="screenshots/poetry.png" alt="Poetry Section">
       <br>
       <b>Poetry Section</b>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="screenshots/interactive-gallery.png" alt="Interactive Gallery">
-      <br>
-      <b>Interactive Gallery</b>
-    </td>
-    <td width="50%" align="center">
-      <img src="screenshots/mobile-view.png" alt="Responsive Mobile View">
-      <br>
-      <b>Responsive Mobile View</b>
     </td>
   </tr>
 </table>
