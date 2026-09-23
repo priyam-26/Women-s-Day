@@ -39,24 +39,24 @@ The website presents the different moments of the celebration through photograph
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="screenshots/home.png" alt="Home Page">
+      <img src="assets/home.png" alt="Home Page">
       <br>
       <b>Home Page</b>
     </td>
     <td width="50%" align="center">
-      <img src="screenshots/interactive-gallery.png" alt="Interactive Gallery">
+      <img src="assets/interactive-gallery.png" alt="Interactive Gallery">
       <br>
       <b>Interactive Gallery</b>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="screenshots/speech.png" alt="Speech Section">
+      <img src="assets/speech.png" alt="Speech Section">
       <br>
       <b>Speech Section</b>
     </td>
     <td width="50%" align="center">
-      <img src="screenshots/poetry.png" alt="Poetry Section">
+      <img src="assets/poetry.png" alt="Poetry Section">
       <br>
       <b>Poetry Section</b>
     </td>
